@@ -32,7 +32,7 @@ namespace DocumentedAPIExample.Controllers
         /// <summary>
         /// Get a specific TodoItem.
         /// </summary>
-        /// <param name="id"></param>        
+        /// <param name="id">The identifier of the requested Todo Item</param>        
         [HttpGet("{id}")]
         public ActionResult<TodoItem> GetById(int id)
         {

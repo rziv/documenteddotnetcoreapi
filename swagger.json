@@ -91,7 +91,7 @@
           {
             "name": "id",
             "in": "path",
-            "description": "",
+            "description": "The identifier of the requested Todo Item",
             "required": true,
             "schema": {
               "type": "integer",
